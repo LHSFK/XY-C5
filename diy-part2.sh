@@ -14,7 +14,7 @@ git clone https://github.com/theosoft-git/luci-app-easymesh.git package/luci-app
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-sed -i 's/ImmortalWrt/iStoreOS/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/iStoreOS/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/iStoreOS/g' package/base-files/files/etc/init.d/system
 
 curl -o  package/base-files/files/etc/banner  https://raw.githubusercontent.com/istoreos/istoreos/refs/heads/istoreos-22.03/package/base-files/files/etc/banner
