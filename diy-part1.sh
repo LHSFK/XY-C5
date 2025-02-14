@@ -16,7 +16,6 @@
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-echo 'src-git fros https://github.com/destan19/fros-packages-openwrt.git;fros-23.05' >> feeds.conf.default 
 echo 'src-git third_party https://github.com/linkease/istore-packages.git;main' >> feeds.conf.default
 echo 'src-git diskman https://github.com/jjm2473/luci-app-diskman.git;dev' >> feeds.conf.default
 echo 'src-git oaf https://github.com/jjm2473/OpenAppFilter.git;dev4' >> feeds.conf.default
